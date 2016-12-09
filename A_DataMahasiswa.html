@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Admin - Data Mahasiswa</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+	body {
+		background-image: url('img/2.jpg');
+		background-attachment:fixed;
+		background-size: cover;		
+	}
+	.panel-sidebar {
+		margin-top: 20px;
+		background-color: #eee;
+	}
+	.panel-sidebar ul {
+		list-style: none;
+		padding: 0;
+	}
+	.panel-sidebar ul li {
+	}
+	.panel-sidebar ul li a {
+		display: block;
+		padding: 6px 10px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header id="welcome">
+			<div class="row">
+				<div class="col-md-2">
+					<div id="logo"> 
+						<img src="img/logo/LogoINL.png" height="150px">
+					</div>
+				</div>
+				<div class="col-md-10">
+					<h1 class="judul">
+						hadI luthaN apriL
+					</h1>
+				</div>
+			</div>
+		</header>
+
+		<!-- Section -->
+		<section id="home">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="panel panel-sidebar">
+							<div class="panel-body">
+								<ul>
+									<li><a href='A_Home.html'>Home</a></li>
+									<li><a href='A_DataMahasiswa.html'>Data Mahasiswa</a></li>
+									<li><a href='A_DPMahasiswa.html'>Profil Mahasiswa</a></li>
+									<li><a href='index.html'>Sign Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="panel panel-default atas">
+							<div class="panel-heading">
+								<h3>Data Mahasiswa</h3>
+							</div>
+							<form class="form-horizontal">
+								<div class="row">
+									<div class="col-md-3">
+										<select class="form-control" class="full-right">
+											<option>--pilih jurusan--</option>
+											<option>TI</option>
+											<option>SI</option>
+											<option>Ekonomi</option>
+										</select>
+										<select class="form-control" class="full-left">
+											<option>--pilih Semester--</option>
+											<option>Semester 7</option>
+											<option>Semester 8</option>
+										</select>
+									</div>
+								</div>							
+								<h5>Syarat IPK >= 2.75 dan SKS lulus >= 130</h5>
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th rowspan="2" class="text-center  th-align">NIM</th>
+											<th rowspan="2" class="text-center  th-align">Nama</th>
+											<th rowspan="2" class="text-center  th-align">Jurusan</th>
+											<th rowspan="2" class="text-center  th-align">Semester</th>
+											<th rowspan="2" class="text-center  th-align">SKS</th>
+											<th colspan="2" class="text-center  th-align">Action</th>
+										</tr>
+										<tr>
+											<th class="text-center  th-align">Rejet</th>
+											<th class="text-center  th-align">Accept</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="text-center  th-align">41 2014 021</td>
+											<td class="text-center  th-align">Luthan Davin Cesario</td>
+											<td class="text-center  th-align">TI</td>											
+											<td class="text-center  th-align">7</td>
+											<td class="text-center  th-align">147</td>
+											<td class="text-center  th-align"><button type="submit" class="btn btn-primary">Reject</button></td>
+											<td class="text-center  th-align"><a href='Dosen1.html' class="btn btn-primary">Accept</button></td>
+										</tr>
+										<tr>
+											<td class="text-center  th-align">41 2014 015</td>
+											<td class="text-center  th-align">Aprilia Eka Saputri</td>
+											<td class="text-center  th-align">TI</td>
+											<td class="text-center  th-align">7</td>
+											<td class="text-center  th-align">147</td>
+											<td class="text-center  th-align"><button type="submit" class="btn btn-primary">Reject</button></td>
+											<td class="text-center  th-align"><a href='Dosen2.html' class="btn btn-primary">Accept</button></td>
+										</tr>
+										<tr>
+											<td class="text-center  th-align">41 2014 008</td>
+											<td class="text-center  th-align">Hadi Putra Nugroho</td>
+											<td class="text-center  th-align">TI</td>
+											<td class="text-center  th-align">7</td>
+											<td class="text-center  th-align">147</td>
+											<td class="text-center  th-align"><button type="submit" class="btn btn-primary">Reject</button></td>
+											<td class="text-center  th-align"><a href='Dosen3.html' class="btn btn-primary">Accept</button></td>
+										</tr>
+										<tr>
+											<td class="text-center  th-align">31 2014 004</td>
+											<td class="text-center  th-align">Saskia Gilmi</td>
+											<td class="text-center  th-align">SI</td>
+											<td class="text-center  th-align">7</td>
+											<td class="text-center  th-align">147</td>
+											<td class="text-center  th-align"><button type="submit" class="btn btn-primary">Reject</button></td>
+											<td class="text-center  th-align"><a href="submit" class="btn btn-primary">Accept</button></td>
+										</tr>
+										<tr>
+											<td class="text-center  th-align">51 2015 062</td>
+											<td class="text-center  th-align">Marvinna</td>
+											<td class="text-center  th-align">Ekonomi</td>
+											<td class="text-center  th-align">7</td>
+											<td class="text-center  th-align">147</td>
+											<td class="text-center  th-align"><button type="submit" class="btn btn-primary">Reject</button></td>
+											<td class="text-center  th-align"><a href="submit" class="btn btn-primary">Accept</button></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="panel-footer">
+								  
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="nav-footer">
+				<li><a href='FeedBack.html'>Feed Back</a></li>
+				<li><a href='AboutUS.html'>About Us</a></li>
+				<li><a href='Contact.html'>Contact</a></li>
+				<li><a href='CopyRight.html'>Copy Right</a></li>
+			</ul>
+		</footer>
+	</div>
+
+	
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
